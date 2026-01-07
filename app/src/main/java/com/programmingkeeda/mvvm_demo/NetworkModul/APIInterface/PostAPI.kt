@@ -6,4 +6,6 @@ import retrofit2.http.GET
 interface PostAPI {
     @GET("posts")
     suspend fun getPost(): List<Post>
+
+
 }
